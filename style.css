@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.landing {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+  
+.landing-content {
+  text-align: center;
+  flex: 1;
+  margin-right: 50px; /* Tambahkan margin agar konten tidak terlalu dekat dengan gambar */
+}
+
+.landing-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-image img {
+  max-width: 500;
+  max-height: 600; /* Atur tinggi maksimum gambar */
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.landing-image img {
+  max-width: 80%;
+}
+
+.about table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.about,
+.service {
+  padding-bottom: 100px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.banner {
+  height: 70vh;
+  background-image: url('WhatsApp\ Image\ 2024-08-26\ at\ 08.55.07_cda74c34.jpg');
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(68, 76, 143, 0.6);
+}
+
+.banner h2 {
+color: #fff;
+z-index: 1;
+padding: 20px 25px;
+border: 3px solid #fff;
+}
+
+section {
+padding: 50px 0;
+}
